@@ -20,8 +20,8 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Returns
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/orders-id-returns-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/order-returns-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
