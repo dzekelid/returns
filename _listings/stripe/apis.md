@@ -34,19 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/orders-id-returns-post.md
-- name: Stripe Get Order Returns
-  description: Retrieves the details of an existing order return. Supply the unique
-    order ID from either an order return creation request or the order return list,
-    and Stripe will return the corresponding order information.
+- name: Stripe Add Orders  Returns
+  description: Return all or part of an order. The order must have a status of paid
+    or fulfilled before it can be returned. Once all items have been returned, the
+    order will become canceled or returned depending on which status the order started
+    in.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Returns
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/order-returns-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/order-returns-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/returns/master/_listings/stripe/orders-id-returns-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
