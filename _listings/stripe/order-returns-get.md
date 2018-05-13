@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Order Returns
+  description: Returns a list of your order returns. The returns are returned sorted
+    by creation date, with the most recently created return appearing first.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
